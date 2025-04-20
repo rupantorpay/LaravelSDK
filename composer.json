@@ -24,6 +24,7 @@
       ]
     }
   },
-  "minimum-stability": "stable",
-  "prefer-stable": true
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "version": "1.0.0-dev"  // Add a version tag to the package
 }
