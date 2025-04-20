@@ -1,0 +1,21 @@
+{
+  "name": "rupantorpay/laravel-sdk",
+  "description": " Laravel SDK for RupantorPay",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "RupantorPay\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RupantorPay\\RupantorPayServiceProvider"
+      ]
+    }
+  }
+}
