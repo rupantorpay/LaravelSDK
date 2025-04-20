@@ -5,7 +5,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "rupantorpay",
+      "name": "RupantorPay",
       "email": "support@rupantorpay.com"
     }
   ],
@@ -24,7 +24,7 @@
       ]
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
-  "version": "1.0.0-dev"  // Add a version tag to the package
+  "version": "1.0.0-stable" 
 }
