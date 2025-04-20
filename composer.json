@@ -1,8 +1,14 @@
 {
   "name": "rupantorpay/laravel-sdk",
-  "description": " Laravel SDK for RupantorPay",
+  "description": "RupantorPay offers a range of payment automation solutions for small entrepreneurs in Bangladesh.",
   "type": "library",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "rupantorpay",
+      "email": "support@rupantorpay.com"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "RupantorPay\\": "src/"
@@ -17,5 +23,7 @@
         "RupantorPay\\RupantorPayServiceProvider"
       ]
     }
-  }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
